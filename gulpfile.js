@@ -31,6 +31,7 @@ var server = require("browser-sync").create();
 	
 	gulp.watch("sass/**/*.{scss,sass}", ["style"]);
 	gulp.watch("*.html", server.reload);
+	gulp.watch("js/*.js", server.reload);
 	});
 	
 	gulp.task('default', ['server']);
