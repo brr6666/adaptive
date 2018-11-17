@@ -4,7 +4,13 @@
 }
 
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans Bold';
   src: url('../fonts/ptsansnarrowbold.woff2');
-  font-weight: bold;
 }
+
+body{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+
